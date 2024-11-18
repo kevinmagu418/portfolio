@@ -1,0 +1,92 @@
+.about__container{
+border:1.5px solid green ;
+border-radius:10px ;
+background-color:var(--primary-color);
+} 
+.about-contain{
+    display: grid;
+    grid-template-columns:30% 65% ;
+    gap:1em;
+}
+.aboutme-left{
+    width: 90%;
+    border:1.5px solid green;
+    border-radius:10px ;
+    height:70%;
+    display:flex;
+    justify-content: center ;
+    align-items: center;
+    margin:1em;
+
+}
+.aboutme-left img{
+    width:98% ;
+    height:100%;
+
+}
+.aboutme-content{
+    display: grid;
+    grid-template-rows:10% 25% 40% 5% ;
+    
+    grid-row-gap:1.5em ;
+}
+.aboutme-heading{
+    border-style: none;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+margin-top: 0.5em;
+ 
+    
+}
+.aboutme-heading h2{
+    color:black;
+    font-weight: 700;
+    font-size:20px ;
+}
+
+.aboutme-cards{
+    
+    display: grid;
+    grid-template-columns:30% 30% 30% ;
+    grid-column-gap:0.5em ;
+    margin-left: 3px;
+}
+.about-card{
+border-radius:12px ;
+border:1px solid greenyellow;
+height:80%;
+display: flex;
+flex-direction: column;
+gap:3px;
+align-items: center;
+justify-content: center;
+}
+
+small{
+    font-size:10px ;
+    font-weight: 300;
+    margin-left:5px ;
+}
+.aboutmeinfo{
+    border-style:none;
+    width:90%;
+    height:90%;
+}
+.aboutmeinfo p{
+   font-size:12px ;
+   font-weight:400;
+   color:black;
+   line-height:1;
+   
+
+}
+.about-learn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-learn a{
+    margin-top:1px ;
+
+}

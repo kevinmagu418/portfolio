@@ -1,0 +1,39 @@
+Nav{
+    
+    border-style: groove;
+    border-width: 1px;
+    border-color:green ;
+    border-radius:20px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:1.5em;
+    width:20rem;
+     height:4rem ; 
+    backdrop-filter: blur(15px);
+    position:fixed;
+    bottom:5rem;
+    z-index:10;
+}
+.navlinks{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    border-style: none;
+    
+
+}
+nav a{
+   display: flex;
+   flex-direction: column;
+   margin: 5px;
+   border-radius: 50%;
+   width: fit-content;
+   padding:2%;
+   
+}
+a.active{
+    background-color:blue;
+    color:white;
+    
+}
